@@ -59,7 +59,7 @@ function makeRandomPizza1(){
 
 var rndmOrder1 = makeRandomPizza1();
 
-// console.log(rndmOrder1);
+console.log(rndmOrder1);
 
 function randomRange(max,min){
     return Math.floor(Math.random() * (max - min)) + min;
@@ -68,10 +68,6 @@ function randomRange(max,min){
 function makeRandomPizza2(){
     var rndmPizza = {};
     rndmPizza.crustType = randomPick(crustType);
-    // for(i = 0; i < randomRange(4,1); i++){
-    //     rndmPizza.crustType.push(randomPick(crustType));
-    // }
-
     rndmPizza.sauceType = [];
     for(i = 0; i < randomRange(3,1); i++){
         rndmPizza.sauceType.push(randomPick(sauceType));
