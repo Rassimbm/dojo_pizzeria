@@ -10,7 +10,7 @@ function makePizza(crust,sauce,cheese,topping){
 }
 
 var order1 = makePizza("thin","marinara","mozzarella",["ground beef","spicy chicken","onions","black olives"]);
-// console.log(order1);
+console.log(order1);
 
 var crustType = [
     "deep dish",
